@@ -24,16 +24,23 @@
 # print(f'{11} + {22} = {res}')
 
 
-class student:
-    def __init__(self, name, age) : # 添加‘姓名’‘年龄’属性
-        self.name = name
-        self.age = age
+# class student:
+#     def __init__(self, name, age) : # 添加‘姓名’‘年龄’属性
+#         self.name = name
+#         self.age = age
+#
+# stu1 = student('小明', 18)
+# stu1.age()
+#
+#
+# @staticmethod
+# def is_valid(a, b, c):
+#     '''判断三条边是否构成三角形(静态方法)'''
+#     return a + b > c and b + c > a and a + c > b
 
-stu1 = student('小明', 18)
-stu1.age()
+a = 15
+b = 16
+print(a >= b)
 
 
-@staticmethod
-def is_valid(a, b, c):
-    '''判断三条边是否构成三角形(静态方法)'''
-    return a + b > c and b + c > a and a + c > b
+
