@@ -60,3 +60,16 @@ print(type(list_3))
 list_3 = [1,]
 print(list_3)
 print(type(list_3))
+
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Use slicing to create downstairs
+downstairs = areas[0:6]
+
+# Use slicing to create upstairs
+upstairs = areas[-4:] # areas[-4:] == areas[6:10] 使用slicing时列表索引由[0或[:开始，:]结束
+
+# Print out downstairs and upstairs
+print(downstairs)
+print(upstairs)

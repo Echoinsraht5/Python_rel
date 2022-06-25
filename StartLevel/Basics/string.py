@@ -12,7 +12,7 @@ y = 'hello, world'
 print(y.find('or'))
 print(x.find('t')) # 元素第一次出现位置
 print(x.rfind('t')) # 元素最后一次出现位置
-print(x.find('t', 3)) # 元素在指定索引出现位置
+print(x.find('t', 3)) # 元素在指定索引后第一次出现位置
 
 r = 'cowboy bebop 123 123'
 print(r.isdigit())
