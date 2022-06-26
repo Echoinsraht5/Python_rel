@@ -123,20 +123,24 @@ second = [10.75, 9.50]
 # print(np_2[0:, -2:]) # 最后结果与np_1一样，但细节上的区别在哪？？？
 
 
-baseball = [[180, 78.4],
-            [215, 102.7],
-            [210, 98.5],
-            [188, 75.2]]
+# baseball = [[180, 78.4],
+# #             [215, 102.7],
+# #             [210, 98.5],
+# #             [188, 75.2]]
+# #
+# # import numpy as np
+# # np_baseball = np.array(baseball)
+# # height = np_baseball[:, 0]
+# # weight = np_baseball[:, 1]
+# # np_baseball_bmi = height / weight ** 2
+# # print(height)
+# # print(weight)
+# # print(np_baseball_bmi)
+# #
+# #
+# # np_baseball_3d = np.concatenate([np_baseball, np_baseball_bmi], axis = 1)
+# # print(np_baseball_3d)
 
-import numpy as np
-np_baseball = np.array(baseball)
-height = np_baseball[:, 0]
-weight = np_baseball[:, 1]
-np_baseball_bmi = height / weight ** 2
-print(height)
-print(weight)
-print(np_baseball_bmi)
 
-
-np_baseball_3d = np.concatenate([np_baseball, np_baseball_bmi], axis = 1)
-print(np_baseball_3d)
+print( 8 + bool(1))
+print(bool(0))

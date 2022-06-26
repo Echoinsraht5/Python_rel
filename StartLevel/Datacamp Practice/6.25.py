@@ -15,7 +15,7 @@ full = first + second
 
 
 # Sort full in descending
-# full_sorted = sorted(full, reverse = True)
+# full_sorted = full.sort(reverse = True)
 
 # Print out full_sorted
 # print(full_sorted)
@@ -64,7 +64,7 @@ areas.reverse()
 
 # Print out areas
 print(areas)
-# print(reversed(areas))
+# print(reversed(areas)) # 返回内存值
 # print(areas.reverse()) == None 直接print(full.reverse(reverse = True))返回None
 
 # Definition of radius
