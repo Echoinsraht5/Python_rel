@@ -141,6 +141,8 @@ second = [10.75, 9.50]
 # # np_baseball_3d = np.concatenate([np_baseball, np_baseball_bmi], axis = 1)
 # # print(np_baseball_3d)
 
-
-print( 8 + bool(1))
-print(bool(0))
+a = 10
+b = 20
+c = a + b
+print('%d + %d = %d' %(a, b, c))
+print(f'{a} + {b} = {c}')
