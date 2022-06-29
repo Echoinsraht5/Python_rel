@@ -14,3 +14,5 @@ plt.plot(year, pop)
 
 # Display the plot with plt.show()
 plt.show()
+
+np.median
